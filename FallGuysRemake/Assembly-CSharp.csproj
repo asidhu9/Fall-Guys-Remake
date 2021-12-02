@@ -680,108 +680,83 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>D:\Program Files\Unity\Hub\Editor\2021.2.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{EC39504C-792D-FC50-F0BA-B676BF4E3680}</Project>
-      <Name>Unity.VisualScripting.Flow.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{A0E1DEA7-511A-DC56-3654-847B309BF6AE}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{F9490F62-2EB3-448A-0C82-C200C0BBB060}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{B1B1B052-931A-C122-6364-A5AC82970163}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
-      <Project>{42B4F90C-BAD2-808E-F521-4CC6A3E64225}</Project>
-      <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{0B7504E3-BF69-CC3A-BB1D-0DC29D334AC7}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{85418D28-C174-0B6D-7795-FD6582ED7F26}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{C7405B36-E7F9-805D-4775-845CB3F0C64A}</Project>
-      <Name>Unity.VisualScripting.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{BBEECDAC-0B58-E56C-BFFC-1524CE492D59}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{90DEFDA2-DA32-B1F5-9338-8FB70A7E045D}</Project>
-      <Name>Unity.VisualScripting.State.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{330D26C4-9467-EB32-4660-D004F617FDA3}</Project>
-      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{239B7A40-7EB0-04C2-A166-E5FFE3D9E88E}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{FDE4DB24-CF91-934B-A33F-D1F3F6687C23}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{7AF24209-A306-6C09-DE27-33AD5E6B0BEB}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{28D3FCFC-2179-3506-E393-1D07C45E65F1}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{0A5E624A-A854-49BC-FD6A-F4B552C278B9}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{01BD7212-276B-4A13-D1E8-E21A25B5CF0B}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{1525A4DE-4452-0CC3-1D08-9BAE013C8F91}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{4BBD087A-CC3F-F9D9-E662-6A2A945DFA28}</Project>
-      <Name>Unity.EditorCoroutines.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{8DA24997-AC41-D16D-4D00-B33E172F4E32}</Project>
-      <Name>Cinemachine</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{FAE6D923-9300-4B56-0FAF-63558837815A}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{D6968B05-076B-1680-CF0B-8B2A3632ECEE}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{8A6E13CF-AF02-7C8D-CFE4-F77AADFF9292}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
-      <Project>{A2E44E7D-16EE-D153-75C7-66F79AB5D558}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{07203481-232D-BDD2-F74C-519A8655D91F}</Project>
-      <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
